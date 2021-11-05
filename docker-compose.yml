@@ -1,7 +1,7 @@
 services:
   productpage:
     build: .
-    image: ghcr.io/supakit25433/productpage:dev
+    image: ghcr.io/supakit25433/bookinfo-productpage:dev
     ports:
       - "8083:8083"
     environment:
